@@ -15,7 +15,7 @@ body {
 
 /* Estilo do cabeçalho */
 header {
-    background-color: #0073e6;
+    background-color: #a900e6;
     color: white;
     padding: 20px;
     text-align: center;
@@ -34,27 +34,40 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Estilo da principal */
-main {
-    
-}
-
-/* aaaaaaaa */
+/* Estilos das seções */
 section {
-
+    padding: 20px;
+    background: white;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* aaaaaaaaaaaa */
+/* Estilo para os artigos */
 article {
-
+    background-color: #e6f7ff;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
 }
 
-/* aaaaaaa */
+/* Estilo do aside */
 aside {
-
+    background: #f2cdff;
+    padding: 15px;
+    margin: 20px auto;    
+    max-width: 800px;
+    border-radius: 5px;
 }
 
 /* Estilo do rodapé */
 footer {
-
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
